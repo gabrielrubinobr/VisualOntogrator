@@ -1,0 +1,59 @@
+<html>
+<head>
+      <title>Busca</title>
+      <meta charset="UTF-8">
+</head>
+<style type="text/css">
+        body {background-color: #ffffff;
+              background: url("../graph.gif") repeat fixed 0 0 rgba(0, 0, 0, 0);
+        }
+        
+        #wrapper {
+
+          margin: 0 20; 
+       }
+ 
+</style>
+<img src="logo.png" alt="Logo">
+<div id="wrapper">
+
+<form action="/grafo.html" method="get">
+    <div>
+        <div style="float: left;"><b>Gene:</b><br> <textarea type="text" name="gene" rows="10" cols="30">At3g06160
+At5g60910
+At2g42200
+At3g15270
+At2g33810
+At1g53160
+At5g65210
+At5g02030
+At1g29280
+At1g74430
+At3g53310
+At4g00870
+At5g37020
+At3g06220
+At2g01760
+At1g27370
+At1g27360
+At1g69170
+At3g57920
+At5g50570</textarea><br><br></div>
+    
+    
+    <div style="float: left;"><b>Relação:</b> <br><textarea type="text" name="relacao" name="relecao" rows="10" cols="30">molecular_function
+plant_structure</textarea><br><br></div>
+    <div style="float: left;"><b>Característica:</b> <br><textarea type="text" name="caracteristica" name="caracteristica" rows="10" cols="30">GO:0003677
+flower
+root</textarea><br></div>
+</div>
+  
+
+  
+<br style="clear:both" />
+<input type="submit" value="Gerar Grafo" style="height:35px; width:200px" >
+
+</form>
+</div>
+</body>
+</html>
